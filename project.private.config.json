@@ -1,0 +1,25 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "musi-player",
+          "pathName": "pages/music-player/index",
+          "query": "id=1901371647",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+/* pages/detail-search/index.wxss */
+page {
+  padding: 0 20rpx;
+  padding-top: 58px;
+}
+
+/* 搜索框 */
+.search-container {
+  position: fixed;
+  top: 0;
+  left: 20rpx;
+  right: 20rpx;
+}
+
+/* 热门搜索 */
+
+.keywords .title {
+  font-size: 36rpx;
+  margin-bottom: 20rpx;
+}
+
+.keywords .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keywords .tag {
+  font-size: 26rpx;
+  background-color: #fff;
+  padding: 10rpx 12rpx;
+  border-radius: 16rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+}
+
+.keywords .tag:first-of-type {
+  color: #26ce8a;
+}
+
+/* 搜索联想 */
+.suggest {
+  padding: 10rpx;
+}
+
+.suggest .title {
+  color: #26ce8a;
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.list {
+  margin-top: 2b0rpx;
+}
+
+.list .item {
+  display: flex;
+  align-items: center;
+  padding: 10rpx 0;
+}
+
+.item .icon {
+  width: 66rpx;
+  margin-left: -20rpx;
+}
+
+/* 搜索结果 */
+.result .title {
+  font-size: 32rpx;
+  color: #26ce8a;
+}
+

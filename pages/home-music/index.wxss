@@ -1,0 +1,20 @@
+/* pages/home-music.wxss */
+page {
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+/* 轮播图 */
+.swiper {
+  border-radius: 20rpx;
+  overflow: hidden;
+  transform: translateY(0);
+}
+
+.swiper-item {
+  display: flex;
+}
+
+.swiper-item .swiper-image {
+  width: 100%;
+}
